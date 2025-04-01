@@ -1,0 +1,82 @@
+https://github.com/markingle/mavesp8266/tree/esp32-c3-devkitc-02
+
+
+erease ESP32 
+
+python -m esptool --chip esp32 erase_flash
+ 
+usbipd wsl list
+
+usbipd wsl attach -b 2-4
+
+
+
+Useful commands: ESP32-WROOM (ESP32-WROOM-32UE)
+
+platformio run -e espwroom32 -t upload
+platformio run -e espwroom32 - process/build just the ESP32 target
+
+IP = http://192.168.4.1
+
+
+python -m esptool --chip esp32 erase_flash
+
+python -m esptool --chip ESP32-C3-MINI erase_flash
+
+
+Station SSID: 
+Dialog_4G_IBBA
+
+Station Password: 
+12345ibba
+
+WiFi MAC: A0:B7:65:63:19:70
+Station IP: 
+192.168.0.7
+
+Station Gateway: 
+192.168.0.254
+
+Station Subnet: 
+255.255.255.0
+
+Host Port: 
+14550
+
+Client Port: 
+14555
+
+Baudrate: 
+921600
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+ESP32 MAVLink WiFi Bridge
+Setup
+WiFi Mode: AccessPoint Station
+AP SSID: 
+ESP32_GW
+
+AP Password (min len 8): 
+
+WiFi Channel: 11
+
+Station SSID:TP-Link_9894
+
+Station Password:50635849
+
+WiFi MAC: CC:50:E3:95:FF:F0
+Station IP: 192.168.0.8
+
+Station Gateway: 192.168.0.254
+
+Station Subnet:255.255.255.0
+
+Host Port: 14550
+
+Client Port: 14555
+
+Baudrate: 921600
+
+
+
+
